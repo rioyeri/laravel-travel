@@ -26,6 +26,6 @@ class PlaceImage extends Model
      */
     public function getImageAttribute($image)
     {
-        return asset('storage/places/'.$image);
+        return asset('storage/places/' . $image);
     }
 }
